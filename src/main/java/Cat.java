@@ -23,4 +23,11 @@ public class Cat {
     public int hashCode() {
         return Objects.hash(name);
     }
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
